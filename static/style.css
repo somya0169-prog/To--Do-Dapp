@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    transition: 0.4s;
+}
+
+/* LIGHT MODE */
+.light-mode {
+    background: #f1f5f9;
+    color: black;
+}
+
+/* LOGIN */
+.login-card {
+    background: #1e293b;
+    border-radius: 15px;
+}
+
+/* DASHBOARD */
+.dashboard-card {
+    background: linear-gradient(135deg, #6366f1, #06b6d4);
+    border-radius: 15px;
+    color: white;
+}
+
+/* TASK CARD */
+.task-card {
+    background: #1e293b;
+    border-radius: 12px;
+    animation: fadeIn 0.5s ease;
+}
+
+/* BUTTONS */
+.add-btn {
+    background: linear-gradient(45deg, #22c55e, #4ade80);
+    border: none;
+    font-weight: bold;
+}
+
+.delete-btn {
+    background: linear-gradient(45deg, #ef4444, #f87171);
+    border: none;
+}
+
+/* HOVER EFFECT */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
